@@ -1,0 +1,15 @@
+((*- extends 'article.tplx' -*))
+((* block docclass *))
+\documentclass[UTF8,fontset=windows]{ctexart}
+((* endblock docclass *))
+
+((* block packages *))
+\usepackage{amsmath}
+\usepackage{xeCJK}
+\setCJKmainfont[
+  Path = C:/Windows/Fonts/,
+  Extension = .ttc,
+  BoldFont = msyhbd,
+  ItalicFont = msyhl
+]{msyh}
+((* endblock packages *))
